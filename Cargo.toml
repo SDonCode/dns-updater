@@ -1,0 +1,15 @@
+[package]
+name = "dns-updater"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.7", features = ["blocking"] }
+thiserror = "1.0.64"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_derive = "1"
+serde_json = "1.0.128"
+aws-sdk-route53 = "1.46.0"
+aws-config = "1.5.7"
+dotenv = "0.15.0"
+tokio = { version = "1.40.0", features = ["rt", "rt-multi-thread", "macros"] }

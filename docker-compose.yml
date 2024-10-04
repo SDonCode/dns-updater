@@ -1,0 +1,7 @@
+services:
+  ip_updater:
+    build: .
+    env_file:
+      - .env
+    container_name: ip_updater
+    restart: unless-stopped

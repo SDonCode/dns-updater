@@ -1,0 +1,4 @@
+.idea
+dns-updater.iml
+Dockerfile
+docker-compose.yml
